@@ -7,8 +7,8 @@ const lowerSalary = (el, actualEl) => {
 	return el.salario < actualEl.salario ? el : actualEl;
 };
 
-// pegando chinesa muler com menor salario
-const request = async () => {
+// pegando chinesa mulher com menor salario
+const calculateLowerSalary = async () => {
 	try {
 		const response = await axios.get(url);
 		const employees = response.data;
@@ -22,4 +22,4 @@ const request = async () => {
 	}
 };
 
-request();
+calculateLowerSalary();
