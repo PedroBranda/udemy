@@ -1,0 +1,11 @@
+a.nav-item {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	font-weight: 300;
+}
+
+a.nav-item:hover {
+	background: linear-gradient(135deg, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
